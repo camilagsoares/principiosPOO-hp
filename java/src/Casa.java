@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
-// Classe Casa
 public class Casa {
     private String nome;
     private String emblema;
@@ -14,16 +10,6 @@ public class Casa {
         this.totalPontos = 0;
         this.listaAlunos = new ArrayList<>();
     }
-
-    public void adicionarAluno(Aluno aluno) {
-        listaAlunos.add(aluno);
-    }
-
-    public void atribuirPontos(int pontos) {
-        this.totalPontos += pontos;
-    }
-
-    // Métodos getters e setters
 
     public String getNome() {
         return nome;
